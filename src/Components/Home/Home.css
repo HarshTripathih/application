@@ -1,0 +1,34 @@
+.home-container{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+.home-container .container .home-sidebar-box{
+    flex:0.3;
+    display: flex;
+    padding: 7px;
+
+}
+.home-container .container .home-center-box{
+    flex: 0.4;
+    display: block;
+
+}
+.home-container .container .home-center-box .home-center-post-box{
+
+width: 100%;
+
+}
+.home-container .container .home-right-box{
+    flex:0.3;
+    display: flex;
+
+}

@@ -1,0 +1,183 @@
+.Card-box{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+.left-part-postbox{
+    flex: 0;
+    display: flex;
+    
+}
+.image-box{
+    /* background-color: black; */
+    height: 10vh;
+    width: 7vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-box > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.right-part-postbox{
+    flex: 1;
+    padding: 0px 0 5px 1px;
+    background-color: whitesmoke;
+}
+.row1-box{
+    display: flex;
+    margin-top:-15px;
+}
+.row1-box-left{
+    flex:0.9;
+    display: flex;
+}
+.row1-box-right{
+    flex:0.1;
+    display: flex;
+}
+
+.row1-box .row1-box-left .Name-box > p{
+    font-size: 20px;
+    color: solid black;  
+}
+.row1-box .row1-box-left .userid-box > p{
+    font-size: 20px;
+     
+}
+
+.row1-box .row1-box-left .date-box > p{
+    font-size: 20px;
+     
+}
+.row1-box .row1-box-right .id-box > p{
+    font-size: 20px;
+}
+
+.row1-box .row1-box-left .dot{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1vw;
+    height: 9.5vh;
+}
+.row1-box .row1-box-left .dot > i{
+    font-size: 4px;
+    color: black;
+}
+.row1-box .row1-box-right .Three_dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1-box .row1-box-right .Three_dot .Three_dot_circle{    
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+}
+.row1-box .row1-box-right .Three_dot_circle:hover{    
+    background-color: aqua;
+}
+.row1-box .row1-box-right .Three_dot_circle > p > i{
+    color:black;
+    
+    font-size: 30px;
+}
+.Card-box .right-part-postbox .title-box{
+    /* background-color: blue; */
+    margin-top: -2.5rem;
+    
+}
+.Card-box .right-part-postbox .title-box >p >b{
+    color:black;
+    font-size: 15px;
+    font-family: Serif;
+}
+.Card-box .right-part-postbox .body-box{
+    /* background-color: blue; */
+    margin-top: -0.8rem;
+    
+}
+.Card-box .right-part-postbox .body-box >p >b{
+
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.Card-box .right-part-postbox .post-icons{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: green; */
+    margin-top: -20px;
+    padding:10px;
+}
+.Card-box .right-part-postbox .post-icons .message-icon{
+    /* background-color: aqua;  */
+    width: 30px;
+    height: 30px;  
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.Card-box .right-part-postbox .post-icons .message-icon:hover{
+    background-color: aqua;
+}
+.Card-box .right-part-postbox .post-icons .retweet-icon{
+    /* background-color: aqua;  */
+    width: 30px;
+    height: 30px;  
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.Card-box .right-part-postbox .post-icons .retweet-icon:hover{
+    background-color: aqua;
+}
+.Card-box .right-part-postbox .post-icons .like-icon{
+    /* background-color: aqua;  */
+    width: 30px;
+    height: 30px;  
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.Card-box .right-part-postbox .post-icons .like-icon:hover{
+    background-color: aqua;
+}
+.Card-box .right-part-postbox .post-icons .impresion-icon{
+    /* background-color: aqua;  */
+    width: 30px;
+    height: 30px;  
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.Card-box .right-part-postbox .post-icons .impresion-icon:hover,.upload-icon:hover{
+    background-color: aqua;
+}
+.Card-box .right-part-postbox .post-icons .upload-icon{
+    /* background-color: aqua;  */
+    width: 30px;
+    height: 30px;  
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}

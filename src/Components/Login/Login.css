@@ -70,7 +70,7 @@
 /* .login-form-container>form> .form-input-div{
     
 } */
-.login-form-container>form> .form-input-div >button {
+.form-input-div >button {
     width: 365px;
     height: 50px;
     font-size: large;

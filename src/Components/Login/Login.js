@@ -1,8 +1,11 @@
 import React from "react";
 import './Login.css';
 import chatlogo from '../Images/chatlogo.png';
+import { useAuth0 } from "@auth0/auth0-react";
+
 
 export default function Login() {
+    const {loginWithRedirect} = useAuth0()
     return (
         <div className="Login-container">
             <div className="login-left-container">
@@ -14,7 +17,8 @@ export default function Login() {
             <div className="login-right-container">
                 <div className="login-form-container">
                     <img src={chatlogo} alt="load error" />
-                    <form>
+                    
+                    {/* <form>
                         <div className="form-input-div"><i class="fa-sharp fa-solid fa-file-signature"></i><input type='text' placeholder="Full Name (required if registering)" /></div>
                         <div className="form-input-div"><i class="fa-solid fa-upload"></i><input type='text' placeholder="Profile Pic Url (optional)" /></div>
                         <div className="form-input-div"><i class="fa-sharp fa-solid fa-envelope"></i><input type='email' placeholder="Email" /></div>
@@ -22,7 +26,8 @@ export default function Login() {
                         <div className="form-input-div"><i class="fa-solid fa-right-to-bracket"></i><button>Sign In</button></div>
                     </form>
                     <h3 className="guest_option">Guest Login</h3>
-                    <p>Not a member? <span className="register_option">Register now</span></p>
+                    <p>Not a member? <span className="register_option">Register now</span></p> */}
+                    <div className="form-input-div"><button onClick={()=> loginWithRedirect()}>Login / Sign In</button></div>
                 </div>
             </div>
         </div>
