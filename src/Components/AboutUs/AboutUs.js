@@ -3,7 +3,7 @@ import './AboutUs.css';
 
 const AboutUs = () => {
     return(
-        <>I am About us page</>
+        <>I am About us page hii everyone</>
     );
 }
 export default AboutUs;
